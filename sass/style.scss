@@ -14,6 +14,7 @@ body{
 	width:100%;
 	height:60px;
 	background-color:$orange;
+	border-bottom:1px solid $orange-dark;
 
 	a{
 		color:#fff;
@@ -67,4 +68,24 @@ form.changeuser{
 		font-family:$font;
 		width:60px;
 	}
+}
+
+.recenttracks{
+	float:left;
+	border:1px solid #D6D6D6;
+	width:30%;
+	height:750px;
+	margin:3%;
+	background:#fafafa;
+	border-radius:3px;
+}
+
+.charts{
+	float:right;
+	border:1px solid #D6D6D6;
+	width:57%;
+	height:330px;
+	margin:3%;
+	background:#fafafa;
+	border-radius:3px;
 }
