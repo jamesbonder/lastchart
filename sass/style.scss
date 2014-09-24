@@ -1,3 +1,4 @@
+@import "compass/css3";
 @import "compass/css3/box-sizing";
 
 $orange:#D3520A;
@@ -70,12 +71,18 @@ form.changeuser{
 	}
 }
 
+.main{
+	width:98%;
+	height:1200px;
+	margin:0 auto;
+}
+
 .recenttracks{
 	float:left;
 	border:1px solid #D6D6D6;
-	width:30%;
-	height:750px;
-	margin:3%;
+	width:33%;
+	height:790px;
+	margin:3% 0% 3% 3%;
 	background:#fafafa;
 	border-radius:3px;
 }
@@ -85,7 +92,7 @@ form.changeuser{
 	border:1px solid #D6D6D6;
 	width:57%;
 	height:330px;
-	margin:3%;
+	margin:3% 3% 0% 0%;
 	background:#fafafa;
 	border-radius:3px;
 }
