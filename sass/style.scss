@@ -30,7 +30,7 @@ body{
 		color:#fff;
 		text-decoration: none;
 		font-size:40px;
-		line-height:60px;
+		line-height:65px;
 		margin:0% 5% 0% 0%;
 		float:right;
 		font-family:$font;
@@ -78,6 +78,34 @@ form.changeuser{
 		font-family:$font;
 		width:60px;
 	}
+}
+
+nav.right{
+	float:right;
+	width:35%;
+	margin:0% 3% 0% 0%;
+	display:inline-block;
+	height:60px;
+}
+
+.about{
+	margin:0%;
+	float:right;
+	padding:0;
+
+	a{
+	display:inline;
+	line-height:67px;
+	color:#fff;
+	font-family:$font;
+	font-size:12px;
+	font-weight:bold;
+	padding:0px 5px 0px 5px;
+}
+}
+
+.about a:hover{
+	color:#000;
 }
 
 .main{
@@ -132,6 +160,6 @@ form.changeuser{
 
 	@media (max-width:1000px){
 		width:100%;
-		margin:3% 0% 0% 0%;
+		margin:3% 0% 3% 0%;
 	}
 }

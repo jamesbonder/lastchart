@@ -19,7 +19,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 40px;
-    line-height: 60px;
+    line-height: 65px;
     margin: 0% 5% 0% 0%;
     float: right;
     font-family: "Raleway", sans-serif; }
@@ -64,12 +64,39 @@ form.changeuser {
     width: 60px; }
 
 /* line 83, ../sass/style.scss */
+nav.right {
+  float: right;
+  width: 35%;
+  margin: 0% 3% 0% 0%;
+  display: inline-block;
+  height: 60px; }
+
+/* line 91, ../sass/style.scss */
+.about {
+  margin: 0%;
+  float: right;
+  padding: 0; }
+  /* line 96, ../sass/style.scss */
+  .about a {
+    display: inline;
+    line-height: 67px;
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 5px 0px 5px; }
+
+/* line 107, ../sass/style.scss */
+.about a:hover {
+  color: #000; }
+
+/* line 111, ../sass/style.scss */
 .main {
   width: 90%;
   height: auto;
   margin: 0 auto; }
 
-/* line 89, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .recenttracks {
   float: left;
   border: 1px solid #E0E0E0;
@@ -79,11 +106,11 @@ form.changeuser {
   background: #fafafa;
   border-radius: 3px; }
   @media (max-width: 1000px) {
-    /* line 89, ../sass/style.scss */
+    /* line 117, ../sass/style.scss */
     .recenttracks {
       display: none; } }
 
-/* line 104, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .recenttrackssmall {
   float: left;
   border: 1px solid #E0E0E0;
@@ -94,16 +121,16 @@ form.changeuser {
   border-radius: 3px;
   display: none; }
   @media (max-width: 1050px) {
-    /* line 104, ../sass/style.scss */
+    /* line 132, ../sass/style.scss */
     .recenttrackssmall {
       display: block;
       width: 70%; } }
   @media (max-width: 700px) {
-    /* line 104, ../sass/style.scss */
+    /* line 132, ../sass/style.scss */
     .recenttrackssmall {
       width: 100%; } }
 
-/* line 124, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .charts {
   float: right;
   border: 1px solid #E0E0E0;
@@ -113,7 +140,7 @@ form.changeuser {
   background: #fafafa;
   border-radius: 3px; }
   @media (max-width: 1000px) {
-    /* line 124, ../sass/style.scss */
+    /* line 152, ../sass/style.scss */
     .charts {
       width: 100%;
-      margin: 3% 0% 0% 0%; } }
+      margin: 3% 0% 3% 0%; } }
