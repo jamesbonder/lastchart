@@ -1,0 +1,70 @@
+@import "compass/css3/box-sizing";
+
+$orange:#D3520A;
+$orange-dark:#AD4308;
+$orange-light:#DE560A;
+$off-white:#EDEDED;
+$font:"Raleway", sans-serif;
+
+body{
+	margin:0;
+}
+
+.top{
+	width:100%;
+	height:60px;
+	background-color:$orange;
+
+	a{
+		color:#fff;
+		text-decoration: none;
+		font-size:40px;
+		line-height:60px;
+		margin:0% 5% 0% 0%;
+		float:right;
+		font-family:$font;
+	}
+}
+
+.left{
+	float:left;
+	display:inline-block;
+	margin:0% 0% 0% 5%;
+}
+
+form.changeuser{
+	width:10%;
+	display:inline;
+	line-height:60px;
+
+	label{
+		margin-right:10px;
+		font-family:$font;
+		color:#fff;
+		font-size:12px;
+		font-weight:bold;
+	}
+
+	input{
+		color:#fff;
+		background-color:$orange-light;
+		margin-right:15px;
+		border-radius:5px;
+		border:1px solid $orange-dark;
+		height:10px;
+	}
+
+	input#textuser{
+		padding:10px;
+	}
+
+	button{
+		border-radius:5px;
+		border:1px solid $orange-dark;
+		color:#fff;
+		background-color:$orange-light;
+		height:32px;
+		font-family:$font;
+		width:60px;
+	}
+}

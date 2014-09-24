@@ -1,0 +1,57 @@
+/* line 9, ../sass/style.scss */
+body {
+  margin: 0; }
+
+/* line 13, ../sass/style.scss */
+.top {
+  width: 100%;
+  height: 60px;
+  background-color: #D3520A; }
+  /* line 18, ../sass/style.scss */
+  .top a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    line-height: 60px;
+    margin: 0% 5% 0% 0%;
+    float: right;
+    font-family: "Raleway", sans-serif; }
+
+/* line 29, ../sass/style.scss */
+.left {
+  float: left;
+  display: inline-block;
+  margin: 0% 0% 0% 5%; }
+
+/* line 35, ../sass/style.scss */
+form.changeuser {
+  width: 10%;
+  display: inline;
+  line-height: 60px; }
+  /* line 40, ../sass/style.scss */
+  form.changeuser label {
+    margin-right: 10px;
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold; }
+  /* line 48, ../sass/style.scss */
+  form.changeuser input {
+    color: #fff;
+    background-color: #DE560A;
+    margin-right: 15px;
+    border-radius: 5px;
+    border: 1px solid #AD4308;
+    height: 10px; }
+  /* line 57, ../sass/style.scss */
+  form.changeuser input#textuser {
+    padding: 10px; }
+  /* line 61, ../sass/style.scss */
+  form.changeuser button {
+    border-radius: 5px;
+    border: 1px solid #AD4308;
+    color: #fff;
+    background-color: #DE560A;
+    height: 32px;
+    font-family: "Raleway", sans-serif;
+    width: 60px; }
