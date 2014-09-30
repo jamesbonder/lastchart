@@ -30,31 +30,32 @@ body {
     text-decoration: none;
     font-size: 40px;
     line-height: 65px;
-    margin: 0% 5% 0% 0%;
+    margin: 0% 0% 0% 0%;
     float: right;
+    padding-right: 5px;
     font-family: "Raleway", sans-serif;
     font-weight: 600; }
 
-/* line 52, ../sass/style.scss */
+/* line 53, ../sass/style.scss */
 .left {
   float: left;
   display: inline-block;
   margin: 0% 0% 0% 5%;
   line-height: 64px; }
 
-/* line 59, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 form.changeuser {
   width: 10%;
   display: inline;
   line-height: 60px; }
-  /* line 64, ../sass/style.scss */
+  /* line 65, ../sass/style.scss */
   form.changeuser label {
     margin-right: 10px;
     font-family: "Raleway", sans-serif;
     color: #fff;
     font-size: 12px;
     font-weight: bold; }
-  /* line 72, ../sass/style.scss */
+  /* line 73, ../sass/style.scss */
   form.changeuser input {
     color: #fff;
     background-color: #DE560A;
@@ -62,10 +63,10 @@ form.changeuser {
     border-radius: 5px;
     border: 1px solid #AD4308;
     height: 10px; }
-  /* line 81, ../sass/style.scss */
+  /* line 82, ../sass/style.scss */
   form.changeuser input#textuser {
     padding: 10px; }
-  /* line 85, ../sass/style.scss */
+  /* line 86, ../sass/style.scss */
   form.changeuser button {
     border-radius: 5px;
     border: 1px solid #AD4308;
@@ -75,7 +76,7 @@ form.changeuser {
     font-family: "Raleway", sans-serif;
     width: 60px; }
 
-/* line 96, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 nav.right {
   float: right;
   width: 35%;
@@ -83,12 +84,12 @@ nav.right {
   display: inline-block;
   height: 60px; }
 
-/* line 104, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .about {
   margin: 0%;
   float: right;
   padding: 0; }
-  /* line 109, ../sass/style.scss */
+  /* line 110, ../sass/style.scss */
   .about a {
     display: inline;
     line-height: 70px;
@@ -98,17 +99,17 @@ nav.right {
     font-weight: bold;
     padding: 0px 5px 0px 5px; }
 
-/* line 121, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .about a:hover {
   color: #000; }
 
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 .main {
   width: 90%;
   height: auto;
   margin: 0 auto; }
 
-/* line 131, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .recenttracks {
   float: left;
   border: 1px solid #E0E0E0;
@@ -118,11 +119,11 @@ nav.right {
   background: #fafafa;
   border-radius: 3px; }
   @media (max-width: 1000px) {
-    /* line 131, ../sass/style.scss */
+    /* line 132, ../sass/style.scss */
     .recenttracks {
       display: none; } }
 
-/* line 146, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .recenttrackssmall {
   float: left;
   border: 1px solid #E0E0E0;
@@ -133,16 +134,16 @@ nav.right {
   border-radius: 3px;
   display: none; }
   @media (max-width: 1050px) {
-    /* line 146, ../sass/style.scss */
+    /* line 147, ../sass/style.scss */
     .recenttrackssmall {
       display: block;
       width: 70%; } }
   @media (max-width: 700px) {
-    /* line 146, ../sass/style.scss */
+    /* line 147, ../sass/style.scss */
     .recenttrackssmall {
       width: 100%; } }
 
-/* line 166, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .charts {
   float: right;
   border: 1px solid #E0E0E0;
@@ -152,16 +153,16 @@ nav.right {
   background: #fafafa;
   border-radius: 3px; }
   @media (max-width: 1000px) {
-    /* line 166, ../sass/style.scss */
+    /* line 167, ../sass/style.scss */
     .charts {
       width: 100%;
       margin: 3% 0% 3% 0%; } }
-  /* line 180, ../sass/style.scss */
+  /* line 181, ../sass/style.scss */
   .charts h2 {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
     padding: 0px 0px 0px 25px; }
 
-/* line 187, ../sass/style.scss */
+/* line 188, ../sass/style.scss */
 #rect {
   fill: #D3520A; }
