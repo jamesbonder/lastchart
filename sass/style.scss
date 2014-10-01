@@ -1,9 +1,9 @@
 @import "compass/css3";
 @import "compass/css3/box-sizing";
 
-$orange:#D3520A;
-$orange-dark:#AD4308;
-$orange-light:#DE560A;
+$orange:#D9540A;
+$orange-dark:#B54608;
+$orange-light:#ED5C0B;
 $off-white:#EDEDED;
 $light-grey:#E0E0E0;
 $orange-new:#B84709;
@@ -124,10 +124,16 @@ nav.right{
 }
 
 .main{
-	width:90%;
+	width:97%;
 	height:auto;
 	margin:0 auto;
 }
+
+	@media(min-width:1400px){
+		.main{
+			width:90%;
+		}
+	}
 
 .recenttracks{
 	float:left;
