@@ -1,0 +1,26 @@
+<section class="main" ng-controller="mainController as ctrl">
+	<div class="recenttracks">
+		<h2>Latest Scrobbles</h2>
+			<ul>
+				<li ng-repeat="track in recentTracks"><img src="{{track.image}}" height="40">{{track.name}}</li>
+			</ul>
+	</div>
+		<div class="charts">
+			<h2>Top 10 Artists</h2>
+				<div id="topartists" style="height:70%; width:100%; padding:10px; margin:50px 0px 20px 0px;"></div>
+		</div>
+		<div class="charts">
+			<h2>Top 10 Tracks</h2>	
+				<div id="toptracks" style="height:70%; width:100%; padding:10px; margin:50px 0px 20px 0px;"></div>
+		</div>
+		<div class="charts">
+			<h2>Top 10 Albums</h2>
+				<div id="topalbums" style="height:70%; width:100%; padding:10px; margin:50px 0px 20px 0px;"></div>	
+		</div>
+		<div class="recenttrackssmall">
+			<h2>Latest Scrobbles</h2>
+			<ul>
+				<li ng-repeat="track in recentTracks"><img src="{{track.image}}" height="40">{{track.name}}</li>
+			</ul>
+		</div>
+</section>
