@@ -134,9 +134,8 @@ app.controller("mainController", function($scope, api){
 
 		api.getRecentTracks($scope.search).success(function(data){
 			if($scope.topTracksArray != []){$scope.recentTracks = []}
-			for(var i = 0; i < 5; i++){
+			for(var i = 0; i < 15; i++){
 					$scope.recentTracks.push({name: data.recenttracks.track[i]['name'], image:data.recenttracks.track[i]['image'][0]["#text"]});
-					
 			}
 		});
 	}

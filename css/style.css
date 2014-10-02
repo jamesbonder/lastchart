@@ -58,19 +58,19 @@ body {
   margin: 0% 0% 0% 5%;
   line-height: 64px; }
 
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 form.changeuser {
   width: 10%;
   display: inline;
   line-height: 60px; }
-  /* line 81, ../sass/style.scss */
+  /* line 82, ../sass/style.scss */
   form.changeuser label {
     margin-right: 10px;
     font-family: "Raleway", sans-serif;
     color: #fff;
     font-size: 12px;
     font-weight: bold; }
-  /* line 89, ../sass/style.scss */
+  /* line 90, ../sass/style.scss */
   form.changeuser input {
     color: #fff;
     background-color: #ED5C0B;
@@ -78,10 +78,10 @@ form.changeuser {
     border-radius: 5px;
     border: 1px solid #B54608;
     height: 10px; }
-  /* line 98, ../sass/style.scss */
+  /* line 99, ../sass/style.scss */
   form.changeuser input#textuser {
     padding: 10px; }
-  /* line 102, ../sass/style.scss */
+  /* line 103, ../sass/style.scss */
   form.changeuser button {
     border-radius: 5px;
     border: 1px solid #B54608;
@@ -93,19 +93,23 @@ form.changeuser {
     font-weight: 700;
     cursor: pointer; }
 
-/* line 115, ../sass/style.scss */
+/* line 116, ../sass/style.scss */
 input:focus {
   outline: none;
   border-color: #B54608;
   box-shadow: 0 0 5px #B54608; }
 
-/* line 121, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 button:focus {
   outline: none;
   border-color: #B54608;
   box-shadow: 0 0 5px #B54608; }
 
-/* line 129, ../sass/style.scss */
+@media (max-width: 500px) {
+  /* line 130, ../sass/style.scss */
+  input {
+    width: 155px; } }
+/* line 136, ../sass/style.scss */
 nav.right {
   float: right;
   width: 35%;
@@ -113,12 +117,12 @@ nav.right {
   display: inline-block;
   height: 60px; }
 
-/* line 137, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .about {
   margin: 0%;
   float: right;
   padding: 0; }
-  /* line 142, ../sass/style.scss */
+  /* line 149, ../sass/style.scss */
   .about a {
     display: inline;
     line-height: 86px;
@@ -128,135 +132,136 @@ nav.right {
     font-weight: bold;
     padding: 0 5px 0 5px; }
 
-/* line 152, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 .ng-binding {
   height: 55px; }
 
-/* line 156, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 p.ng-binding {
   display: inline-block;
   position: absolute;
   margin-top: 0px; }
 
-/* line 162, ../sass/style.scss */
+/* line 169, ../sass/style.scss */
 span {
   font-weight: bold;
-  font-size: 19px; }
+  font-size: 19px;
+  color: #D9540A; }
 
-/* line 167, ../sass/style.scss */
+/* line 175, ../sass/style.scss */
 .about a:hover {
   color: #000;
   font-size: 17px; }
 
-/* line 172, ../sass/style.scss */
+/* line 180, ../sass/style.scss */
 .main {
   width: 97%;
   height: auto;
   margin: 0 auto; }
 
 @media (min-width: 1400px) {
-  /* line 179, ../sass/style.scss */
+  /* line 187, ../sass/style.scss */
   .main {
     width: 90%; } }
-/* line 185, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .recenttracks {
   float: left;
   border: 1px solid #E0E0E0;
   width: 29%;
-  height: 790px;
+  height: auto;
   margin: 0 0 3% 0;
   background: #fafafa;
   border-radius: 3px; }
-  /* line 194, ../sass/style.scss */
+  /* line 202, ../sass/style.scss */
   .recenttracks h2 {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
     padding: 0 0 0 25px;
     margin: 25px 0 35px 0; }
-  /* line 201, ../sass/style.scss */
+  /* line 209, ../sass/style.scss */
   .recenttracks li {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
     padding: 0 0 15px;
     position: relative; }
-  /* line 208, ../sass/style.scss */
+  /* line 216, ../sass/style.scss */
   .recenttracks ul {
     list-style-type: none;
     padding: 0px 0px 0px 25px;
     display: block;
     position: relative; }
   @media (max-width: 1000px) {
-    /* line 185, ../sass/style.scss */
+    /* line 193, ../sass/style.scss */
     .recenttracks {
       display: none; } }
   @media (max-width: 1400px) {
-    /* line 185, ../sass/style.scss */
+    /* line 193, ../sass/style.scss */
     .recenttracks {
       width: 31%; } }
 
-/* line 225, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .recenttrackssmall {
   float: left;
   border: 1px solid #E0E0E0;
   width: 33%;
-  height: 790px;
+  height: auto;
   margin: 3% 0% 3% 0%;
   background: #fafafa;
   border-radius: 3px;
   display: none; }
-  /* line 235, ../sass/style.scss */
+  /* line 243, ../sass/style.scss */
   .recenttrackssmall h2 {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     color: #3C393C;
     padding: 0px 0px 0px 25px;
     margin: 25px 0 35px 0; }
-  /* line 243, ../sass/style.scss */
+  /* line 251, ../sass/style.scss */
   .recenttrackssmall li {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
     padding: 0px 0px 10px;
     position: relative; }
-  /* line 250, ../sass/style.scss */
+  /* line 258, ../sass/style.scss */
   .recenttrackssmall ul {
     list-style-type: none;
     padding: 0px 0px 0px 25px;
     display: block;
     position: relative; }
   @media (max-width: 1050px) {
-    /* line 225, ../sass/style.scss */
+    /* line 233, ../sass/style.scss */
     .recenttrackssmall {
       display: block;
       width: 100%; } }
   @media (max-width: 700px) {
-    /* line 225, ../sass/style.scss */
+    /* line 233, ../sass/style.scss */
     .recenttrackssmall {
       width: 100%; } }
 
-/* line 267, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 #topartists {
   height: 70%;
   padding: 0px 0px 0px 10px;
   margin: 0px 0px 20px 0px;
   overflow: none; }
 
-/* line 274, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 #toptracks {
   height: 70%;
   padding: 0px 0px 0px 10px;
   margin: 0px 0px 20px 0px; }
 
-/* line 280, ../sass/style.scss */
+/* line 288, ../sass/style.scss */
 #topalbums {
   height: 70%;
   padding: 0px 0px 0px 10px;
   margin: 0px 0px 20px 0px; }
 
-/* line 286, ../sass/style.scss */
+/* line 294, ../sass/style.scss */
 svg {
   width: 100%; }
 
-/* line 290, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 .charts {
   float: right;
   border: 1px solid #E0E0E0;
@@ -267,11 +272,11 @@ svg {
   border-radius: 3px;
   overflow: none; }
   @media (max-width: 1000px) {
-    /* line 290, ../sass/style.scss */
+    /* line 298, ../sass/style.scss */
     .charts {
       width: 100%;
       margin: 3% 0% 3% 0%; } }
-  /* line 306, ../sass/style.scss */
+  /* line 314, ../sass/style.scss */
   .charts h2 {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
@@ -279,14 +284,14 @@ svg {
     padding: 0px 0px 0px 25px;
     margin: 25px 0 20px 0; }
   @media (max-width: 1400px) {
-    /* line 290, ../sass/style.scss */
+    /* line 298, ../sass/style.scss */
     .charts {
       margin: 0 0 2% 0; } }
   @media (max-width: 500px) {
-    /* line 290, ../sass/style.scss */
+    /* line 298, ../sass/style.scss */
     .charts {
       margin: 0 0 4% 0; } }
 
-/* line 323, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 #rect {
   fill: #D9540A; }

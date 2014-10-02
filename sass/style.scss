@@ -71,6 +71,7 @@ body{
 	display:inline-block;
 	margin:0% 0% 0% 5%;
 	line-height:64px;
+
 }
 
 form.changeuser{
@@ -124,7 +125,13 @@ form.changeuser{
 		box-shadow:0 0 5px $orange-dark;
 	}
 
+@media (max-width:500px){
 
+	input{
+		width:155px;
+	}
+
+	}
 
 nav.right{
 	float:right;
@@ -161,7 +168,8 @@ p.ng-binding{
 
 span{
 	font-weight:bold;
-	font-size:19px
+	font-size:19px;
+	color:$orange;
 }
 
 .about a:hover{
@@ -186,7 +194,7 @@ span{
 	float:left;
 	border:1px solid $light-grey;
 	width:29%;
-	height:790px;
+	height:auto;
 	margin:0 0 3% 0;
 	background:#fafafa;
 	border-radius:3px;
@@ -226,7 +234,7 @@ span{
 	float:left;
 	border:1px solid $light-grey;
 	width:33%;
-	height:790px;
+	height:auto;
 	margin:3% 0% 3% 0%;
 	background:#fafafa;
 	border-radius:3px;
