@@ -150,20 +150,19 @@ span {
 
 /* line 175, ../sass/style.scss */
 .about a:hover {
-  color: #000;
-  font-size: 17px; }
+  color: #000; }
 
-/* line 180, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .main {
   width: 97%;
   height: auto;
   margin: 0 auto; }
 
 @media (min-width: 1400px) {
-  /* line 187, ../sass/style.scss */
+  /* line 186, ../sass/style.scss */
   .main {
     width: 90%; } }
-/* line 193, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .recenttracks {
   float: left;
   border: 1px solid #E0E0E0;
@@ -172,34 +171,34 @@ span {
   margin: 0 0 3% 0;
   background: #fafafa;
   border-radius: 3px; }
-  /* line 202, ../sass/style.scss */
+  /* line 201, ../sass/style.scss */
   .recenttracks h2 {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
     padding: 0 0 0 25px;
     margin: 25px 0 35px 0; }
-  /* line 209, ../sass/style.scss */
+  /* line 208, ../sass/style.scss */
   .recenttracks li {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
     padding: 0 0 15px;
     position: relative; }
-  /* line 216, ../sass/style.scss */
+  /* line 215, ../sass/style.scss */
   .recenttracks ul {
     list-style-type: none;
     padding: 0px 0px 0px 25px;
     display: block;
     position: relative; }
   @media (max-width: 1000px) {
-    /* line 193, ../sass/style.scss */
+    /* line 192, ../sass/style.scss */
     .recenttracks {
       display: none; } }
   @media (max-width: 1400px) {
-    /* line 193, ../sass/style.scss */
+    /* line 192, ../sass/style.scss */
     .recenttracks {
       width: 31%; } }
 
-/* line 233, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .recenttrackssmall {
   float: left;
   border: 1px solid #E0E0E0;
@@ -209,59 +208,59 @@ span {
   background: #fafafa;
   border-radius: 3px;
   display: none; }
-  /* line 243, ../sass/style.scss */
+  /* line 242, ../sass/style.scss */
   .recenttrackssmall h2 {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     color: #3C393C;
     padding: 0px 0px 0px 25px;
     margin: 25px 0 35px 0; }
-  /* line 251, ../sass/style.scss */
+  /* line 250, ../sass/style.scss */
   .recenttrackssmall li {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
     padding: 0px 0px 10px;
     position: relative; }
-  /* line 258, ../sass/style.scss */
+  /* line 257, ../sass/style.scss */
   .recenttrackssmall ul {
     list-style-type: none;
     padding: 0px 0px 0px 25px;
     display: block;
     position: relative; }
   @media (max-width: 1050px) {
-    /* line 233, ../sass/style.scss */
+    /* line 232, ../sass/style.scss */
     .recenttrackssmall {
       display: block;
       width: 100%; } }
   @media (max-width: 700px) {
-    /* line 233, ../sass/style.scss */
+    /* line 232, ../sass/style.scss */
     .recenttrackssmall {
       width: 100%; } }
 
-/* line 275, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 #topartists {
   height: 70%;
   padding: 0px 0px 0px 10px;
   margin: 0px 0px 20px 0px;
   overflow: none; }
 
-/* line 282, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 #toptracks {
   height: 70%;
   padding: 0px 0px 0px 10px;
   margin: 0px 0px 20px 0px; }
 
-/* line 288, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 #topalbums {
   height: 70%;
   padding: 0px 0px 0px 10px;
   margin: 0px 0px 20px 0px; }
 
-/* line 294, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 svg {
   width: 100%; }
 
-/* line 298, ../sass/style.scss */
+/* line 297, ../sass/style.scss */
 .charts {
   float: right;
   border: 1px solid #E0E0E0;
@@ -272,11 +271,11 @@ svg {
   border-radius: 3px;
   overflow: none; }
   @media (max-width: 1000px) {
-    /* line 298, ../sass/style.scss */
+    /* line 297, ../sass/style.scss */
     .charts {
       width: 100%;
       margin: 3% 0% 3% 0%; } }
-  /* line 314, ../sass/style.scss */
+  /* line 313, ../sass/style.scss */
   .charts h2 {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
@@ -284,14 +283,14 @@ svg {
     padding: 0px 0px 0px 25px;
     margin: 25px 0 20px 0; }
   @media (max-width: 1400px) {
-    /* line 298, ../sass/style.scss */
+    /* line 297, ../sass/style.scss */
     .charts {
       margin: 0 0 2% 0; } }
   @media (max-width: 500px) {
-    /* line 298, ../sass/style.scss */
+    /* line 297, ../sass/style.scss */
     .charts {
       margin: 0 0 4% 0; } }
 
-/* line 331, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
 #rect {
   fill: #D9540A; }
