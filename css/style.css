@@ -1,30 +1,41 @@
-/* line 12, ../sass/style.scss */
+/* line 13, ../sass/style.scss */
 body {
   margin: 0; }
 
 @media (max-width: 580px) {
-  /* line 16, ../sass/style.scss */
+  /* line 17, ../sass/style.scss */
   .logo {
     display: none; } }
 
-/* line 24, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
+.albumart {
+  height: 55px;
+  margin-right: 5px; }
+  @media (max-width: 1000px) {
+    /* line 23, ../sass/style.scss */
+    .albumart {
+      height: 80px;
+      padding-right: 5px; } }
+
+/* line 33, ../sass/style.scss */
 .top {
   width: 100%;
   height: 4em;
   background-color: #D9540A;
   border-bottom: 1px solid #B54608;
   margin-bottom: 3%; }
-  /* line 31, ../sass/style.scss */
+  /* line 40, ../sass/style.scss */
   .top h1 {
     color: #fff;
     text-decoration: none;
     font-size: 40px;
     line-height: 65px;
-    margin: 0% 5% 0% 0%;
+    margin: 0% 2% 0% 0%;
     float: right;
     font-family: "Raleway", sans-serif;
+    cursor: default;
     font-weight: 600; }
-  /* line 42, ../sass/style.scss */
+  /* line 52, ../sass/style.scss */
   .top a {
     color: #fff;
     text-decoration: none;
@@ -36,26 +47,26 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 600; }
 
-/* line 55, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .left {
   float: left;
   display: inline-block;
   margin: 0% 0% 0% 5%;
   line-height: 64px; }
 
-/* line 62, ../sass/style.scss */
+/* line 72, ../sass/style.scss */
 form.changeuser {
   width: 10%;
   display: inline;
   line-height: 60px; }
-  /* line 67, ../sass/style.scss */
+  /* line 77, ../sass/style.scss */
   form.changeuser label {
     margin-right: 10px;
     font-family: "Raleway", sans-serif;
     color: #fff;
     font-size: 12px;
     font-weight: bold; }
-  /* line 75, ../sass/style.scss */
+  /* line 85, ../sass/style.scss */
   form.changeuser input {
     color: #fff;
     background-color: #ED5C0B;
@@ -63,10 +74,10 @@ form.changeuser {
     border-radius: 5px;
     border: 1px solid #B54608;
     height: 10px; }
-  /* line 84, ../sass/style.scss */
+  /* line 94, ../sass/style.scss */
   form.changeuser input#textuser {
     padding: 10px; }
-  /* line 88, ../sass/style.scss */
+  /* line 98, ../sass/style.scss */
   form.changeuser button {
     border-radius: 5px;
     border: 1px solid #B54608;
@@ -75,70 +86,94 @@ form.changeuser {
     height: 32px;
     font-family: "Raleway", sans-serif;
     width: 60px;
-    font-weight: 700; }
+    font-weight: 700;
+    cursor: pointer; }
 
-/* line 100, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
+input:focus {
+  outline: none;
+  border-color: #B54608;
+  box-shadow: 0 0 5px #B54608; }
+
+/* line 117, ../sass/style.scss */
+button:focus {
+  outline: none;
+  border-color: #B54608;
+  box-shadow: 0 0 5px #B54608; }
+
+/* line 125, ../sass/style.scss */
 nav.right {
   float: right;
   width: 35%;
-  margin: 0% 3% 0% 0%;
+  margin: 0 3% 0 0;
   display: inline-block;
   height: 60px; }
 
-/* line 108, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 .about {
   margin: 0%;
   float: right;
   padding: 0; }
-  /* line 113, ../sass/style.scss */
+  /* line 138, ../sass/style.scss */
   .about a {
     display: inline;
-    line-height: 70px;
+    line-height: 86px;
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-size: 12px;
     font-weight: bold;
-    padding: 0px 5px 0px 5px; }
+    padding: 0 5px 0 5px; }
 
-/* line 125, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 .about a:hover {
   color: #000; }
 
-/* line 129, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .main {
   width: 97%;
   height: auto;
   margin: 0 auto; }
 
 @media (min-width: 1400px) {
-  /* line 136, ../sass/style.scss */
+  /* line 160, ../sass/style.scss */
   .main {
     width: 90%; } }
-/* line 141, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 .recenttracks {
   float: left;
   border: 1px solid #E0E0E0;
-  width: 33%;
+  width: 29%;
   height: 790px;
-  margin: 0% 0% 3% 0%;
+  margin: 0 0 3% 0;
   background: #fafafa;
   border-radius: 3px; }
-  /* line 150, ../sass/style.scss */
+  /* line 175, ../sass/style.scss */
   .recenttracks h2 {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
-    padding: 0px 0px 0px 25px; }
-  /* line 156, ../sass/style.scss */
+    padding: 0 0 0 25px; }
+  /* line 181, ../sass/style.scss */
   .recenttracks li {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
-    padding-bottom: 20px; }
+    padding: 0 0 20px;
+    position: relative; }
+  /* line 188, ../sass/style.scss */
+  .recenttracks ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 25px;
+    display: block;
+    position: relative; }
   @media (max-width: 1000px) {
-    /* line 141, ../sass/style.scss */
+    /* line 166, ../sass/style.scss */
     .recenttracks {
       display: none; } }
+  @media (max-width: 1400px) {
+    /* line 166, ../sass/style.scss */
+    .recenttracks {
+      width: 31%; } }
 
-/* line 168, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .recenttrackssmall {
   float: left;
   border: 1px solid #E0E0E0;
@@ -148,36 +183,85 @@ nav.right {
   background: #fafafa;
   border-radius: 3px;
   display: none; }
+  /* line 215, ../sass/style.scss */
+  .recenttrackssmall h2 {
+    font-family: "Raleway", sans-serif;
+    color: #3C393C;
+    padding: 0px 0px 0px 25px; }
+  /* line 221, ../sass/style.scss */
+  .recenttrackssmall li {
+    font-family: "Raleway", sans-serif;
+    color: #3C393C;
+    padding: 0px 0px 20px;
+    position: relative; }
+  /* line 228, ../sass/style.scss */
+  .recenttrackssmall ul {
+    list-style-type: none;
+    padding: 0px 0px 0px 25px;
+    display: block;
+    position: relative; }
   @media (max-width: 1050px) {
-    /* line 168, ../sass/style.scss */
+    /* line 205, ../sass/style.scss */
     .recenttrackssmall {
       display: block;
-      width: 70%; } }
+      width: 100%; } }
   @media (max-width: 700px) {
-    /* line 168, ../sass/style.scss */
+    /* line 205, ../sass/style.scss */
     .recenttrackssmall {
       width: 100%; } }
 
-/* line 188, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
+#topartists {
+  height: 70%;
+  padding: 0px 0px 0px 10px;
+  margin: 50px 0px 20px 0px;
+  overflow: none; }
+
+/* line 252, ../sass/style.scss */
+#toptracks {
+  height: 70%;
+  padding: 0px 0px 0px 10px;
+  margin: 50px 0px 20px 0px; }
+
+/* line 258, ../sass/style.scss */
+#topalbums {
+  height: 70%;
+  padding: 0px 0px 0px 10px;
+  margin: 50px 0px 20px 0px; }
+
+/* line 264, ../sass/style.scss */
+svg {
+  width: 100%; }
+
+/* line 268, ../sass/style.scss */
 .charts {
   float: right;
   border: 1px solid #E0E0E0;
-  width: 63%;
+  width: 67%;
   height: 430px;
-  margin: 0% 0% 3% 0%;
+  margin: 0 0 3% 0;
   background: #fafafa;
-  border-radius: 3px; }
+  border-radius: 3px;
+  overflow: none; }
   @media (max-width: 1000px) {
-    /* line 188, ../sass/style.scss */
+    /* line 268, ../sass/style.scss */
     .charts {
       width: 100%;
       margin: 3% 0% 3% 0%; } }
-  /* line 202, ../sass/style.scss */
+  /* line 284, ../sass/style.scss */
   .charts h2 {
     font-family: "Raleway", sans-serif;
     color: #3C393C;
     padding: 0px 0px 0px 25px; }
+  @media (max-width: 1400px) {
+    /* line 268, ../sass/style.scss */
+    .charts {
+      margin: 0 0 2% 0; } }
+  @media (max-width: 500px) {
+    /* line 268, ../sass/style.scss */
+    .charts {
+      margin: 0 0 4% 0; } }
 
-/* line 209, ../sass/style.scss */
+/* line 299, ../sass/style.scss */
 #rect {
   fill: #D9540A; }

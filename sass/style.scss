@@ -7,6 +7,7 @@ $orange-light:#ED5C0B;
 $off-white:#EDEDED;
 $light-grey:#E0E0E0;
 $orange-new:#B84709;
+$dark-grey:#3C393C;
 $font:"Raleway", sans-serif;
 
 body{
@@ -19,7 +20,15 @@ body{
 	}
 }
 
+.albumart{
+	height:55px;
+	margin-right:5px;
 
+@media (max-width:1000px){
+		height:80px;
+		padding-right:5px;
+	}
+}	
 
 .top{
 	width:100%;
@@ -33,9 +42,10 @@ body{
 		text-decoration: none;
 		font-size:40px;
 		line-height:65px;
-		margin:0% 5% 0% 0%;
+		margin:0% 2% 0% 0%;
 		float:right;
 		font-family:$font;
+		cursor:default;
 		font-weight:600;
 	}
 
@@ -94,13 +104,28 @@ form.changeuser{
 		font-family:$font;
 		width:60px;
 		font-weight:700;
+		cursor:pointer;
 	}
 }
+
+	input:focus{
+		outline:none;
+   		border-color:$orange-dark;
+    	box-shadow:0 0 5px $orange-dark;
+	}
+
+	button:focus{
+		outline:none;
+		border-color:$orange-dark;
+		box-shadow:0 0 5px $orange-dark;
+	}
+
+
 
 nav.right{
 	float:right;
 	width:35%;
-	margin:0% 3% 0% 0%;
+	margin:0 3% 0 0;
 	display:inline-block;
 	height:60px;
 }
@@ -112,15 +137,14 @@ nav.right{
 
 	a{
 	display:inline;
-	line-height:70px;
+	line-height:86px;
 	color:#fff;
 	font-family:$font;
 	font-size:12px;
 	font-weight:bold;
-	padding:0px 5px 0px 5px;
+	padding:0 5px 0 5px;
 }
 }
-
 
 .about a:hover{
 	color:#000;
@@ -138,30 +162,43 @@ nav.right{
 		}
 	}
 
+
 .recenttracks{
 	float:left;
 	border:1px solid $light-grey;
-	width:33%;
+	width:29%;
 	height:790px;
-	margin:0% 0% 3% 0%;
+	margin:0 0 3% 0;
 	background:#fafafa;
 	border-radius:3px;
 
 	h2{
 		font-family:$font;
 		color:#3C393C;
-		padding:0px 0px 0px 25px;
+		padding:0 0 0 25px;
 	}
 
 	li{
 		font-family:$font;
 		color:#3C393C;
-		padding-bottom:20px;
+		padding:0 0 20px;
+		position:relative;
+	}
+
+	ul{
+		list-style-type:none;
+		padding:0px 0px 0px 25px;
+		display:block;
+		position:relative;
 	}
 
 	@media(max-width:1000px){
 		display:none;
 
+	}
+
+	@media (max-width:1400px){
+		width:31%;
 	}
 }
 
@@ -175,9 +212,29 @@ nav.right{
 	border-radius:3px;
 	display:none;
 
+	h2{
+	font-family:$font;
+	color:#3C393C;
+	padding:0px 0px 0px 25px;
+	}
+
+	li{
+		font-family:$font;
+		color:#3C393C;
+		padding:0px 0px 20px;
+		position:relative;
+	}
+
+	ul{
+		list-style-type:none;
+		padding:0px 0px 0px 25px;
+		display:block;
+		position:relative;
+	}
+
 	@media (max-width:1050px){
 	display:block;
-	width:70%;
+	width:100%;
 }
 
 	@media (max-width:700px){
@@ -185,14 +242,39 @@ nav.right{
 	}
 }
 
+#topartists{
+	height:70%; 
+	padding:0px 0px 0px 10px; 
+	margin:50px 0px 20px 0px; 
+	overflow:none;
+}
+
+#toptracks{
+	height:70%; 
+	padding:0px 0px 0px 10px;  
+	margin:50px 0px 20px 0px;
+}
+
+#topalbums{
+	height:70%; 
+	padding:0px 0px 0px 10px; 
+	margin:50px 0px 20px 0px;
+}
+
+svg{
+	width:100%;
+}
+
 .charts{
 	float:right;
 	border:1px solid $light-grey;
-	width:63%;
+	width:67%;
 	height:430px;
-	margin:0% 0% 3% 0%;
+	margin:0 0 3% 0;
 	background:#fafafa;
 	border-radius:3px;
+
+	overflow:none;
 
 	@media (max-width:1000px){
 		width:100%;
@@ -201,8 +283,16 @@ nav.right{
 
 	h2{
 		font-family:$font;
-		color:#3C393C;
+		color:$dark-grey;
 		padding:0px 0px 0px 25px;
+	}
+
+	@media (max-width:1400px){
+		margin:0 0 2% 0;
+	}
+
+	@media (max-width:500px){
+		margin:0 0 4% 0;
 	}
 }	
 
