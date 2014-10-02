@@ -136,6 +136,7 @@ app.controller("mainController", function($scope, api){
 			if($scope.topTracksArray != []){$scope.recentTracks = []}
 			for(var i = 0; i < 5; i++){
 					$scope.recentTracks.push({name: data.recenttracks.track[i]['name'], image:data.recenttracks.track[i]['image'][0]["#text"]});
+					
 			}
 		});
 	}

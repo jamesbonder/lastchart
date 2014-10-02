@@ -60,6 +60,10 @@ body{
 		font-family:$font;
 		font-weight:600;
 	}
+
+	@media (max-width:1200px){
+		margin-bottom:2%;
+	}
 }
 
 .left{
@@ -145,9 +149,24 @@ nav.right{
 	padding:0 5px 0 5px;
 }
 }
+.ng-binding{
+	height:55px;
+}
+
+p.ng-binding{
+	display:inline-block;
+	position:absolute;
+	margin-top:0px;
+}
+
+span{
+	font-weight:bold;
+	font-size:19px
+}
 
 .about a:hover{
 	color:#000;
+	font-size:17px
 }
 
 .main{
@@ -176,12 +195,13 @@ nav.right{
 		font-family:$font;
 		color:#3C393C;
 		padding:0 0 0 25px;
+		margin:25px 0 35px 0;
 	}
 
 	li{
 		font-family:$font;
 		color:#3C393C;
-		padding:0 0 20px;
+		padding:0 0 15px;
 		position:relative;
 	}
 
@@ -214,14 +234,16 @@ nav.right{
 
 	h2{
 	font-family:$font;
+	font-size:24px;	
 	color:#3C393C;
 	padding:0px 0px 0px 25px;
+	margin:25px 0 35px 0;
 	}
 
 	li{
 		font-family:$font;
 		color:#3C393C;
-		padding:0px 0px 20px;
+		padding:0px 0px 10px;
 		position:relative;
 	}
 
@@ -245,20 +267,20 @@ nav.right{
 #topartists{
 	height:70%; 
 	padding:0px 0px 0px 10px; 
-	margin:50px 0px 20px 0px; 
+	margin:0px 0px 20px 0px; 
 	overflow:none;
 }
 
 #toptracks{
 	height:70%; 
 	padding:0px 0px 0px 10px;  
-	margin:50px 0px 20px 0px;
+	margin:0px 0px 20px 0px;
 }
 
 #topalbums{
 	height:70%; 
 	padding:0px 0px 0px 10px; 
-	margin:50px 0px 20px 0px;
+	margin:0px 0px 20px 0px;
 }
 
 svg{
@@ -283,8 +305,10 @@ svg{
 
 	h2{
 		font-family:$font;
+		font-size:24px;
 		color:$dark-grey;
 		padding:0px 0px 0px 25px;
+		margin:25px 0 20px 0;
 	}
 
 	@media (max-width:1400px){
